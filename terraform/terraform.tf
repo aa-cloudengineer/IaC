@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "pds07" 
+    bucket = "cicdtf" 
     key    = "terraform.tfstate"
     
     region = "us-east-1"
