@@ -8,7 +8,7 @@ exec >> /var/log/init-script.log 2>&1
 
 echo "Starting initialization script..."
 
-# Update system
+# Update systemz
 sudo apt update -y
 
 # Install Docker 
